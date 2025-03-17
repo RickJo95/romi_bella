@@ -14,13 +14,10 @@
       "noUnusedLocals": true,
       "noUnusedParameters": true,
       "noFallthroughCasesInSwitch": true,
-      
-      /* Importante para el alias @ */
       "baseUrl": ".",
       "paths": {
         "@/*": ["./src/*"]
       }
     },
-    "include": ["src", "vite.config.ts"],
-    "references": [{ "path": "./tsconfig.node.json" }]
+    "include": ["src"]
   }
